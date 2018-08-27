@@ -3,10 +3,9 @@
 def loop_iterator(7)
   loop do
     counter = 0
-    phrase = "Welcome to Flatiron School's Web Development Course!"
-    puts phrase
+    puts "Welcome to Flatiron School's Web Development Course!"
     counter += 1
-    if loop_iterator >= 7
+    if counter >= 7
       break
     end
   end
